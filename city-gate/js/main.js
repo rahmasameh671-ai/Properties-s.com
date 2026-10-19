@@ -45,7 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
         landingPageUrl: window.location.href,       // Captures the full page URL
         submissionDate: new Date().toISOString(),   // Captures the exact date and time
         project: 'City Gate New Cairo',
-        agency: 'properties-s.com'
+        agency: 'properties-s.com',
+        campaignCategory: 'Google Ads Real Estate',
+        complianceStatus: 'Verified Strategic Partner'
       };
 
       try {
