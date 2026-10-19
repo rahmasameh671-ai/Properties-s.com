@@ -30,14 +30,33 @@ Official web architecture for **properties-s.com**, an **Independent Real Estate
 ```
 Properties-s.com/
 ├── index.html                 # Main Landing Page (Hero, 18 Years Legacy, Value Pillars, Lead Capture)
+├── sodic.html                 # Standalone /sodic route alias for clean URL engines
+├── sodic/                     # Dedicated /sodic Route Directory
+│   ├── index.html             # The Lakes at SODIC East & Premier Portfolio Landing Page
+│   ├── privacy.html           # SODIC-specific legal Privacy Policy
+│   ├── terms.html             # SODIC-specific legal Terms & Conditions
+│   ├── css/styles.css         # Architectural SODIC stylesheet
+│   ├── js/main.js             # SODIC lead engine, Zapier webhook & country selector
+│   └── images/                # SODIC portfolio images & logos
+├── images/                    # Public media directory (renders & official developer logos)
+│   ├── sodic-logo.png
+│   ├── the-lakes-architecture.jpg
+│   ├── sodic-east-logo.png
+│   ├── sodic-east-lakes.jpg
+│   ├── ogami-logo.png
+│   ├── ogami-villa.webp
+│   ├── eastvale-logo.png
+│   └── eastvale-architecture.jpg
 ├── privacy.html               # Standalone Routed Privacy Policy (100% White on Solid Black)
 ├── privacy-policy.html        # Direct URL routing alias
 ├── terms.html                 # Standalone Routed Terms & Conditions (100% White on Solid Black)
 ├── terms-conditions.html      # Direct URL routing alias
 ├── css/
-│   └── style.css             # Calm Luxury stylesheet, custom glassmorphism & typography
+│   ├── style.css             # Main corporate Calm Luxury stylesheet
+│   └── styles.css            # SODIC portfolio stylesheet
 ├── js/
-│   └── main.js               # Country codes engine, form validation, WhatsApp routing & modal
+│   ├── main.js               # Main corporate engine
+│   └── sodic.js              # SODIC lead processing & analytics engine
 └── README.md                  # Complete architectural & compliance documentation
 ```
 
