@@ -111,6 +111,17 @@ function initLeadCaptureForm() {
         body: JSON.stringify(data),
       });
 
+      // Google Ads Conversion Tracking (properties-s conv)
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion();
+      } else if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-10964877445/novGCO2LpqIdEIWBu-wo',
+          'value': 1.0,
+          'currency': 'EGP'
+        });
+      }
+
       // Show Thank You success state matching requested design
       if (successState) {
         successState.style.display = 'block';

@@ -6,7 +6,39 @@
   <title>The Lakes at SODIC East &amp; Premier Portfolio | By properties-s.com</title>
   <meta name="description" content="Discover The Lakes at SODIC East: A new waterfront living experience with 0% down payment and 10 years installments. Plus Ogami Ras El Hekma and East Vale Mostakbal City. Presented by properties-s.com.">
 
-  <!-- Google tag (gtag.js) / Analytics placeholder -->
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10964877445"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9KWPXXF2JB');
+    gtag('config', 'AW-10964877445');
+  </script>
+
+  <!-- Event snippet for properties-s.com conv conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+          'send_to': 'AW-10964877445/novGCO2LpqIdEIWBu-wo',
+          'value': 1.0,
+          'currency': 'EGP',
+          'event_callback': callback
+      });
+    } else {
+      callback();
+    }
+    return false;
+  }
+  </script>
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/images/sodic-logo.png">
@@ -107,7 +139,7 @@
             <h3 style="color: #166534; font-weight: 700; font-size: 1.125rem; margin-bottom: 0.5rem;">Thank You!</h3>
             <p style="color: #15803d; margin: 0 0 1rem 0; font-size: 0.95rem; line-height: 1.5;">Your details have been received. We will be in touch shortly.</p>
             <div style="display: flex; flex-direction: column; gap: 0.6rem; align-items: center; justify-content: center; margin-top: 0.75rem;">
-              <a href="https://wa.me/201033373331?text=Hello%20properties-s.com,%20I%20just%20registered%20my%20interest%20in%20The%20Lakes%20at%20SODIC%20East." target="_blank" class="btn-whatsapp" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background-color: #25D366; color: #ffffff; padding: 0.65rem 1.25rem; border-radius: 0.375rem; font-weight: 600; text-decoration: none; font-size: 0.9rem; box-shadow: 0 2px 6px rgba(37,211,102,0.25);">
+              <a href="https://wa.me/201033373331?text=Hello%20properties-s.com,%20I%20just%20registered%20my%20interest%20in%20The%20Lakes%20at%20SODIC%20East." target="_blank" class="btn-whatsapp" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background-color: #25D366; color: #ffffff; padding: 0.65rem 1.25rem; border-radius: 0.375rem; font-weight: 600; text-decoration: none; font-size: 0.9rem; box-shadow: 0 2px 6px rgba(37,211,102,0.25);" onclick="return gtag_report_conversion(this.href);">
                 <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp Now
               </a>
               <button type="button" id="resetLeadFormBtn" style="background: none; border: none; color: #166534; font-size: 0.8rem; text-decoration: underline; cursor: pointer; padding: 0.25rem;">
@@ -273,7 +305,7 @@
             </div>
 
             <!-- Solid WhatsApp Green CTA Button -->
-            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20The%20Lakes%20at%20SODIC%20East" target="_blank" class="btn btn-whatsapp btn-full">
+            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20The%20Lakes%20at%20SODIC%20East" target="_blank" class="btn btn-whatsapp btn-full" onclick="return gtag_report_conversion(this.href);">
               <i class="fa-brands fa-whatsapp"></i> CONTACT US
             </a>
           </div>
@@ -357,7 +389,7 @@
             </div>
 
             <!-- Solid WhatsApp Green CTA Button -->
-            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Ogami%20by%20SODIC" target="_blank" class="btn btn-whatsapp btn-full">
+            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Ogami%20by%20SODIC" target="_blank" class="btn btn-whatsapp btn-full" onclick="return gtag_report_conversion(this.href);">
               <i class="fa-brands fa-whatsapp"></i> CONTACT US
             </a>
           </div>
@@ -454,7 +486,7 @@
             </div>
 
             <!-- Solid WhatsApp Green CTA Button -->
-            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20East%20Vale%20Mostakbal%20City%20by%20SODIC" target="_blank" class="btn btn-whatsapp btn-full">
+            <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20East%20Vale%20Mostakbal%20City%20by%20SODIC" target="_blank" class="btn btn-whatsapp btn-full" onclick="return gtag_report_conversion(this.href);">
               <i class="fa-brands fa-whatsapp"></i> CONTACT US
             </a>
           </div>
@@ -520,7 +552,7 @@
               <td>0% Down Payment</td>
               <td>Over 10 Years</td>
               <td>
-                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20The%20Lakes%20at%20SODIC%20East" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">
+                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20The%20Lakes%20at%20SODIC%20East" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;" onclick="return gtag_report_conversion(this.href);">
                   <i class="fa-brands fa-whatsapp"></i> CONTACT US
                 </a>
               </td>
@@ -536,7 +568,7 @@
               <td>Developer Terms</td>
               <td>Up to 7 Years</td>
               <td>
-                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Ogami%20by%20SODIC" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">
+                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Ogami%20by%20SODIC" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;" onclick="return gtag_report_conversion(this.href);">
                   <i class="fa-brands fa-whatsapp"></i> CONTACT US
                 </a>
               </td>
@@ -555,7 +587,7 @@
               <td>5% (&asymp; 0.525M / 1.65M)</td>
               <td>Up to 9 Years</td>
               <td>
-                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20East%20Vale%20Mostakbal%20City%20by%20SODIC" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">
+                <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20East%20Vale%20Mostakbal%20City%20by%20SODIC" target="_blank" class="btn btn-whatsapp" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;" onclick="return gtag_report_conversion(this.href);">
                   <i class="fa-brands fa-whatsapp"></i> CONTACT US
                 </a>
               </td>
@@ -630,7 +662,7 @@
             <strong>Role:</strong> Independent Real Estate Consultancy Partner<br>
             <strong>Address:</strong> New Cairo S5-3, Second District, Fifth Settlement, First Floor, Cairo, Egypt<br>
             <strong>Direct Phone:</strong> <a href="tel:+201005080951" class="footer-contact-link">+20 100 508 0951</a><br>
-            <strong>Official WhatsApp:</strong> <a href="https://wa.me/201033373331" target="_blank" rel="noopener" class="footer-contact-link">+20 103 337 3331</a><br>
+            <strong>Official WhatsApp:</strong> <a href="https://wa.me/201033373331" target="_blank" rel="noopener" class="footer-contact-link" onclick="return gtag_report_conversion(this.href);">+20 103 337 3331</a><br>
             <strong>Email:</strong> <a href="mailto:info@properties-s.com" class="footer-contact-link">info@properties-s.com</a>
           </p>
         </div>
@@ -664,7 +696,7 @@
        9. FLOATING CORNER BUTTON (ROUND ICON-ONLY WHATSAPP TO +201033373331)
        ========================================================================== -->
   <div class="floating-actions-container">
-    <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20SODIC%20Developments" target="_blank" class="floating-whatsapp-btn" title="Chat on WhatsApp (+201033373331)" aria-label="Chat on WhatsApp (+201033373331)">
+    <a href="https://wa.me/201033373331?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20SODIC%20Developments" target="_blank" class="floating-whatsapp-btn" title="Chat on WhatsApp (+201033373331)" aria-label="Chat on WhatsApp (+201033373331)" onclick="return gtag_report_conversion(this.href);">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
   </div>

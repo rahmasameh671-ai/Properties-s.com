@@ -122,6 +122,17 @@ function initLeadForm() {
       initCountryCodes();
 
       // Show high-end modal
+      // Google Ads Conversion Tracking (properties-s conv)
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion();
+      } else if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-10964877445/novGCO2LpqIdEIWBu-wo',
+          'value': 1.0,
+          'currency': 'EGP'
+        });
+      }
+
       openSuccessModal(lead.name, lead.phone);
     }, 800);
   });
@@ -219,3 +230,16 @@ function initSmoothScroll() {
     });
   });
 }
+
+
+// Delegate WhatsApp Clicks to Google Ads Conversion Tracking
+document.addEventListener('click', (e) => {
+  const waLink = e.target.closest('a[href*="wa.me"], a[href*="whatsapp.com"]');
+  if (waLink) {
+    if (!waLink.hasAttribute('onclick') || !waLink.getAttribute('onclick').includes('gtag_report_conversion')) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(waLink.href);
+      }
+    }
+  }
+});
