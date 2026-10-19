@@ -30,6 +30,14 @@ Official web architecture for **properties-s.com**, an **Independent Real Estate
 ```
 Properties-s.com/
 ├── index.html                 # Main Landing Page (Hero, 18 Years Legacy, Value Pillars, Lead Capture)
+├── city-gate.html             # Standalone /city-gate route alias for clean URL engines
+├── city-gate/                 # Dedicated /city-gate Route Directory (City Gate New Cairo)
+│   ├── index.html             # City Gate New Cairo Landing Page (Qatari Diar)
+│   ├── privacy.html           # City Gate legal Privacy Policy
+│   ├── terms.html             # City Gate legal Terms & Conditions
+│   ├── css/style.css          # Architectural City Gate stylesheet
+│   ├── js/main.js             # City Gate lead engine & modal handler
+│   └── images/                # City Gate renders and official logos
 ├── sodic.html                 # Standalone /sodic route alias for clean URL engines
 ├── sodic/                     # Dedicated /sodic Route Directory
 │   ├── index.html             # The Lakes at SODIC East & Premier Portfolio Landing Page
@@ -39,6 +47,12 @@ Properties-s.com/
 │   ├── js/main.js             # SODIC lead engine, Zapier webhook & country selector
 │   └── images/                # SODIC portfolio images & logos
 ├── images/                    # Public media directory (renders & official developer logos)
+│   ├── citygate-official.png
+│   ├── qatari-diar-official.png
+│   ├── hero-masterview.jpg
+│   ├── apartment-interior.jpg
+│   ├── villas-exterior.jpg
+│   ├── golf-championship.jpg
 │   ├── sodic-logo.png
 │   ├── the-lakes-architecture.jpg
 │   ├── sodic-east-logo.png
@@ -53,10 +67,12 @@ Properties-s.com/
 ├── terms-conditions.html      # Direct URL routing alias
 ├── css/
 │   ├── style.css             # Main corporate Calm Luxury stylesheet
-│   └── styles.css            # SODIC portfolio stylesheet
+│   ├── styles.css            # SODIC portfolio stylesheet
+│   └── city-gate.css         # City Gate portfolio stylesheet
 ├── js/
 │   ├── main.js               # Main corporate engine
-│   └── sodic.js              # SODIC lead processing & analytics engine
+│   ├── sodic.js              # SODIC lead processing & analytics engine
+│   └── city-gate.js          # City Gate lead processing & analytics engine
 └── README.md                  # Complete architectural & compliance documentation
 ```
 
