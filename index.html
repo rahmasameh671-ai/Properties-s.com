@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>properties-s.com — Independent Real Estate Consultancy | Backed by 18 Years of Excellence</title>
+  <meta name="description" content="properties-s.com is Egypt's premier independent real estate consultancy and strategic marketing partner. Backed by 18 Years of Real Estate Excellence and Market Leadership.">
+  
+  <!-- Favicon / Brand Icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Crect width='32' height='32' rx='6' fill='%231A202C'/%3E%3Cpath d='M8 22V10L16 6L24 10V22L16 26L8 22Z' stroke='%23FFFFFF' stroke-width='1.8' stroke-linejoin='round'/%3E%3Cpath d='M16 6V26' stroke='%23FFFFFF' stroke-width='1.5' stroke-dasharray='2 2'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Cinzel, Playfair Display, Plus Jakarta Sans, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            alabaster: '#FAFAFB',
+            stonegray: '#F8F9FA',
+            coolborder: '#E2E8F0',
+            charcoal: {
+              DEFAULT: '#1A202C',
+              light: '#2D3748',
+              dark: '#0F172A'
+            },
+            wagreen: {
+              DEFAULT: '#25D366',
+              hover: '#20BD5A'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            cinzel: ['"Cinzel"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '"Inter"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Calm Luxury CSS (Strict Zero Gold Policy) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#FFFFFF] text-charcoal-light font-sans antialiased selection:bg-charcoal selection:text-white">
+
+  <!-- ========================================================================
+       TOP STATUS & NAVIGATION BAR
+       ======================================================================== -->
+  <header class="sticky top-0 z-40 w-full bg-white/90 backdrop-blur-md border-b border-coolborder transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Left: Monogram & Brand Tag -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-lg bg-charcoal text-white flex items-center justify-center font-cinzel font-bold text-lg tracking-wider shadow-sm transition-transform group-hover:scale-105">
+          S
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xs uppercase tracking-[0.25em] font-bold text-charcoal">
+            properties-s.com
+          </span>
+          <span class="text-[10px] uppercase tracking-widest text-slate-500 font-medium">
+            Independent Real Estate Consultancy
+          </span>
+        </div>
+      </a>
+
+      <!-- Center: Navigation Links (Desktop) -->
+      <nav class="hidden md:flex items-center gap-8 text-xs font-semibold uppercase tracking-[0.15em] text-slate-600">
+        <a href="#hero" class="hover:text-charcoal transition-colors">Overview</a>
+        <a href="#expertise" class="hover:text-charcoal transition-colors">18 Years Legacy</a>
+        <a href="#pillars" class="hover:text-charcoal transition-colors">Value Pillars</a>
+        <a href="#destinations" class="hover:text-charcoal transition-colors">Strategic Portfolio</a>
+        <a href="#register" class="hover:text-charcoal transition-colors">Consultancy</a>
+      </nav>
+
+      <!-- Right: Direct WhatsApp Action Button -->
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/201000000000?text=Hello%20properties-s.com,%20I%20would%20like%20to%20schedule%20an%20independent%20real%20estate%20consultation." target="_blank" rel="noopener noreferrer" class="btn-whatsapp px-5 py-2.5 text-xs font-semibold uppercase tracking-wider shadow-md">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.184 0 5.77-2.587 5.77-5.766.001-3.183-2.585-5.768-5.77-5.768zm0-2.172c4.385 0 7.942 3.557 7.942 7.938 0 4.382-3.557 7.941-7.942 7.941-1.373 0-2.65-.353-3.766-.967l-5.265 1.38 1.405-5.132c-.689-1.173-1.074-2.531-1.074-3.982 0-4.381 3.557-7.938 7.942-7.938zm0 1.942c-3.308 0-5.996 2.688-5.996 5.996 0 1.258.39 2.43 1.059 3.396l-.689 2.518 2.593-.681c.928.583 2.023.927 3.033.927 3.308 0 6-2.688 6-5.996 0-3.308-2.692-5.996-6-5.996zm3.328 8.163c-.144-.072-.853-.42-1-.474-.147-.054-.254-.081-.361.081-.107.162-.416.527-.51.635-.094.108-.188.122-.332.05-.144-.072-.609-.224-1.16-.715-.43-.383-.72-1.025-.805-1.17-.085-.144-.009-.222.063-.294.065-.064.144-.167.216-.251.072-.084.096-.144.144-.24.048-.096.024-.18-.012-.252-.036-.072-.361-.87-.495-1.191-.131-.313-.264-.27-.361-.275-.094-.005-.202-.006-.31-.006s-.284.041-.433.203c-.149.162-.57 5.57-.57 1.358 0 .801.583 1.575.664 1.683.081.108 1.147 1.752 2.78 2.456.388.168.692.268.928.343.39.124.745.106 1.026.064.313-.047.962-.393 1.098-.772.136-.379.136-.704.095-.772-.041-.068-.149-.108-.293-.18z"/>
+          </svg>
+          <span class="hidden sm:inline">WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       1. HERO SECTION (THE LEGACY OF EXCELLENCE)
+       ======================================================================== -->
+  <section id="hero" class="relative bg-architectural-grid pt-12 pb-24 lg:pt-20 lg:pb-32 overflow-hidden border-b border-coolborder">
+    
+    <!-- Serene Architectural Ambient Glows (Cool Slate / Pure White Only - ZERO Gold) -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-slate-100/70 rounded-full blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute bottom-0 right-0 w-[400px] h-[400px] bg-slate-200/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Center Branding Identifier -->
+      <div class="text-center mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 border border-coolborder text-[11px] font-bold uppercase tracking-[0.3em] text-slate-600 shadow-sm">
+          <span>BY PROPERTIES-S.COM</span>
+        </div>
+      </div>
+
+      <!-- Badge / Eyebrow -->
+      <div class="text-center mb-6">
+        <span class="inline-block px-5 py-1.5 rounded-md border border-slate-300 bg-white text-xs font-bold uppercase tracking-[0.22em] text-charcoal shadow-sm">
+          INDEPENDENT REAL ESTATE CONSULTANCY
+        </span>
+      </div>
+
+      <!-- Main Headline -->
+      <div class="text-center max-w-4xl mx-auto mb-6">
+        <h1 class="font-editorial text-4xl sm:text-6xl lg:text-7xl font-bold text-charcoal leading-[1.12] tracking-tight">
+          A Vision of Extraordinary Living
+        </h1>
+      </div>
+
+      <!-- Core Highlight / Subtitle (CRITICAL MANDATE) -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <p class="text-lg sm:text-2xl font-serif italic text-slate-700 tracking-wide leading-relaxed">
+          &ldquo;Backed by 18 Years of Real Estate Excellence and Market Leadership.&rdquo;
+        </p>
+        <p class="mt-3 text-sm sm:text-base text-slate-500 max-w-2xl mx-auto font-sans">
+          Providing high-net-worth investors and discerning homeowners with transparent, strategic market intelligence across Egypt’s most iconic prime developments.
+        </p>
+      </div>
+
+      <!-- Main Hero Content: Two-Column / Single-Column Mobile Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center max-w-6xl mx-auto">
+        
+        <!-- Left Column: Architectural Legacy Showcase -->
+        <div class="lg:col-span-7 space-y-8 order-2 lg:order-1 text-center lg:text-left">
+          
+          <div class="space-y-4">
+            <div class="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+              The Strategic Advisory Difference
+            </div>
+            <h2 class="font-editorial text-2xl sm:text-4xl font-bold text-charcoal leading-snug">
+              Uncompromising Standards in High-End Real Estate
+            </h2>
+            <p class="text-slate-600 leading-relaxed text-base sm:text-lg">
+              properties-s.com is not a typical sales intermediary. As an independent real estate consultancy, we maintain complete operational autonomy, delivering unvarnished market evaluations, historical appreciation trends, and private developer unit allocations.
+            </p>
+          </div>
+
+          <!-- Quick Highlight Metrics (Calm Alabaster & Cool Slate) -->
+          <div class="grid grid-cols-3 gap-4 pt-4 border-t border-coolborder">
+            <div class="p-4 rounded-xl bg-alabaster border border-coolborder">
+              <div class="font-editorial text-2xl sm:text-3xl font-bold text-charcoal">18+</div>
+              <div class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 mt-1">Years Legacy</div>
+            </div>
+            <div class="p-4 rounded-xl bg-alabaster border border-coolborder">
+              <div class="font-editorial text-2xl sm:text-3xl font-bold text-charcoal">100%</div>
+              <div class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 mt-1">Unbiased Advice</div>
+            </div>
+            <div class="p-4 rounded-xl bg-alabaster border border-coolborder">
+              <div class="font-editorial text-2xl sm:text-3xl font-bold text-charcoal">Top Tier</div>
+              <div class="text-[11px] font-semibold uppercase tracking-wider text-slate-500 mt-1">Developer Direct</div>
+            </div>
+          </div>
+
+          <!-- Trust Citation -->
+          <div class="flex items-center justify-center lg:justify-start gap-3 text-xs text-slate-500 pt-2">
+            <svg class="w-4 h-4 text-slate-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
+            </svg>
+            <span class="tracking-wide">Official Strategic Marketing Partner &bull; Governed under Egyptian Law</span>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Lead Capture Form (Frosted Glass Container) -->
+        <div id="register" class="lg:col-span-5 order-1 lg:order-2">
+          
+          <div class="frosted-glass rounded-2xl p-6 sm:p-8 relative">
+            
+            <!-- Form Header -->
+            <div class="text-center mb-6">
+              <div class="text-[11px] uppercase tracking-[0.25em] font-bold text-slate-400 mb-1">
+                Priority Access
+              </div>
+              <h3 class="font-editorial text-xl sm:text-2xl font-bold text-charcoal tracking-wide uppercase">
+                REGISTER YOUR INTEREST
+              </h3>
+              <p class="text-xs text-slate-500 mt-1">
+                Schedule a confidential consultation with a senior advisor.
+              </p>
+            </div>
+
+            <!-- Lead Capture Form -->
+            <form id="leadCaptureForm" class="space-y-5" novalidate>
+              
+              <!-- Full Name Field (Strictly NO placeholder text) -->
+              <div>
+                <label for="fullName" class="form-label">
+                  Full Name
+                </label>
+                <input 
+                  type="text" 
+                  id="fullName" 
+                  name="fullName" 
+                  required 
+                  class="form-input"
+                  autocomplete="name"
+                >
+              </div>
+
+              <!-- Phone Number with Country Code Dropdown (Strictly NO placeholder text) -->
+              <div>
+                <label for="phoneNumber" class="form-label">
+                  Phone Number
+                </label>
+                <div class="space-y-2">
+                  <!-- Country code select -->
+                  <div class="country-select-wrapper">
+                    <select id="countryCodeSelect" class="form-input text-xs font-medium cursor-pointer" aria-label="Country Code">
+                      <!-- Populated dynamically via js/main.js -->
+                      <option value="+20">🇪🇬 +20 (Egypt)</option>
+                    </select>
+                  </div>
+                  <!-- Phone input with NO placeholder -->
+                  <input 
+                    type="tel" 
+                    id="phoneNumber" 
+                    name="phoneNumber" 
+                    required 
+                    class="form-input tracking-wider"
+                    autocomplete="tel-national"
+                  >
+                </div>
+              </div>
+
+              <!-- Submit Button (Solid dark charcoal button reading 'SUBMIT') -->
+              <div class="pt-2">
+                <button type="submit" class="btn-charcoal w-full py-3.5 px-6 rounded-xl text-xs font-bold tracking-[0.2em] shadow-lg">
+                  SUBMIT
+                </button>
+              </div>
+
+              <!-- Legal Disclaimer Below Form (MANDATORY REQUIREMENT) -->
+              <p class="text-[11px] text-slate-400 leading-normal text-center pt-2">
+                &ldquo;By submitting, you agree to receive communications from properties-s.com. This platform is operated by properties-s.com, an independent real estate consultancy.&rdquo;
+              </p>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       2. OUR EXPERTISE & COMPANY DETAILS SECTION
+       ======================================================================== -->
+  <section id="expertise" class="py-24 bg-stonegray border-b border-coolborder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-4 py-1 rounded-full bg-white border border-coolborder text-xs font-bold uppercase tracking-[0.25em] text-slate-500 mb-4 shadow-sm">
+          A Track Record of Distinction
+        </span>
+        <h2 class="font-editorial text-3xl sm:text-5xl font-bold text-charcoal tracking-tight">
+          18 Years of Unmatched Expertise
+        </h2>
+        <div class="w-16 h-0.5 bg-charcoal mx-auto my-6 opacity-30"></div>
+        <p class="text-base sm:text-lg leading-relaxed text-slate-600 font-normal">
+          &ldquo;For nearly two decades, properties-s.com has been the strategic partner of choice for elite real estate investments. With 18 years of market insight, we provide 100% unbiased consultations, ensuring our clients secure prime units that perfectly align with their investment goals.&rdquo;
+        </p>
+      </div>
+
+      <!-- Value Pillars (Clean Minimalist Grid of 3 Cards) -->
+      <div id="pillars" class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        
+        <!-- Pillar 1: 18 Years of Experience -->
+        <div class="frosted-glass rounded-2xl p-8 text-center flex flex-col items-center justify-between group hover:border-slate-400">
+          <div class="w-14 h-14 rounded-2xl bg-white border border-coolborder flex items-center justify-center text-charcoal shadow-sm mb-6 transition-transform group-hover:scale-110">
+            <!-- Architectural Milestone / Clock SVG in Cool Slate -->
+            <svg class="w-7 h-7 stroke-current" fill="none" stroke-width="1.6" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div class="space-y-3">
+            <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-400">Pillar I</span>
+            <h3 class="font-editorial text-xl sm:text-2xl font-bold text-charcoal">
+              18 Years of Experience
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Decades of trusted market leadership.
+            </p>
+            <p class="text-xs text-slate-400 pt-2 border-t border-slate-100">
+              Navigating market cycles, emerging investment corridors, and high-value master developments with sustained historical precision.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pillar 2: 100% Unbiased Consultation -->
+        <div class="frosted-glass rounded-2xl p-8 text-center flex flex-col items-center justify-between group hover:border-slate-400">
+          <div class="w-14 h-14 rounded-2xl bg-white border border-coolborder flex items-center justify-center text-charcoal shadow-sm mb-6 transition-transform group-hover:scale-110">
+            <!-- Balance / Integrity SVG in Cool Slate -->
+            <svg class="w-7 h-7 stroke-current" fill="none" stroke-width="1.6" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z" />
+            </svg>
+          </div>
+          <div class="space-y-3">
+            <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-400">Pillar II</span>
+            <h3 class="font-editorial text-xl sm:text-2xl font-bold text-charcoal">
+              100% Unbiased Consultation
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Independent, client-first advisory.
+            </p>
+            <p class="text-xs text-slate-400 pt-2 border-t border-slate-100">
+              Free from developer quota incentives. Our sole benchmark of success is the long-term wealth preservation and lifestyle satisfaction of our clients.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pillar 3: Strategic Partnerships -->
+        <div class="frosted-glass rounded-2xl p-8 text-center flex flex-col items-center justify-between group hover:border-slate-400">
+          <div class="w-14 h-14 rounded-2xl bg-white border border-coolborder flex items-center justify-center text-charcoal shadow-sm mb-6 transition-transform group-hover:scale-110">
+            <!-- Strategic Alliance / Building SVG in Cool Slate -->
+            <svg class="w-7 h-7 stroke-current" fill="none" stroke-width="1.6" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+            </svg>
+          </div>
+          <div class="space-y-3">
+            <span class="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-400">Pillar III</span>
+            <h3 class="font-editorial text-xl sm:text-2xl font-bold text-charcoal">
+              Strategic Partnerships
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Direct access to Egypt's premier developers.
+            </p>
+            <p class="text-xs text-slate-400 pt-2 border-t border-slate-100">
+              Preferred tier allocations, early launch reservations, and direct executive coordination with Egypt’s most reputable property developers.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Call to Action Banner (Centered with Solid Green WhatsApp Button) -->
+      <div class="max-w-3xl mx-auto rounded-3xl bg-white border border-coolborder p-8 sm:p-12 text-center shadow-lg">
+        <h3 class="font-editorial text-2xl sm:text-3xl font-bold text-charcoal mb-3">
+          Elevate Your Real Estate Strategy
+        </h3>
+        <p class="text-sm sm:text-base text-slate-600 mb-8 max-w-xl mx-auto">
+          Connect directly with our senior consultancy desk on WhatsApp for instant project dossiers, floor layouts, and private payment schedule analyses.
+        </p>
+
+        <!-- Solid Green WhatsApp Button reading 'Consult an Expert Today' -->
+        <a 
+          href="https://wa.me/201000000000?text=Hello%20properties-s.com,%20I%20would%20like%20to%20consult%20an%20expert%20today%20regarding%20prime%20real%20estate%20investments." 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="btn-whatsapp px-8 py-4 text-sm font-bold tracking-wider uppercase inline-flex items-center gap-3 shadow-xl"
+        >
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.184 0 5.77-2.587 5.77-5.766.001-3.183-2.585-5.768-5.77-5.768zm0-2.172c4.385 0 7.942 3.557 7.942 7.938 0 4.382-3.557 7.941-7.942 7.941-1.373 0-2.65-.353-3.766-.967l-5.265 1.38 1.405-5.132c-.689-1.173-1.074-2.531-1.074-3.982 0-4.381 3.557-7.938 7.942-7.938zm0 1.942c-3.308 0-5.996 2.688-5.996 5.996 0 1.258.39 2.43 1.059 3.396l-.689 2.518 2.593-.681c.928.583 2.023.927 3.033.927 3.308 0 6-2.688 6-5.996 0-3.308-2.692-5.996-6-5.996zm3.328 8.163c-.144-.072-.853-.42-1-.474-.147-.054-.254-.081-.361.081-.107.162-.416.527-.51.635-.094.108-.188.122-.332.05-.144-.072-.609-.224-1.16-.715-.43-.383-.72-1.025-.805-1.17-.085-.144-.009-.222.063-.294.065-.064.144-.167.216-.251.072-.084.096-.144.144-.24.048-.096.024-.18-.012-.252-.036-.072-.361-.87-.495-1.191-.131-.313-.264-.27-.361-.275-.094-.005-.202-.006-.31-.006s-.284.041-.433.203c-.149.162-.57 5.57-.57 1.358 0 .801.583 1.575.664 1.683.081.108 1.147 1.752 2.78 2.456.388.168.692.268.928.343.39.124.745.106 1.026.064.313-.047.962-.393 1.098-.772.136-.379.136-.704.095-.772-.041-.068-.149-.108-.293-.18z"/>
+          </svg>
+          <span>Consult an Expert Today</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       STRATEGIC PORTFOLIO DESTINATIONS (CALM LUXURY EDITORIAL SHOWCASE)
+       ======================================================================== -->
+  <section id="destinations" class="py-24 bg-white border-b border-coolborder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div>
+          <span class="text-xs uppercase tracking-[0.25em] font-bold text-slate-400">
+            Geographic Dominance
+          </span>
+          <h2 class="font-editorial text-3xl sm:text-4xl font-bold text-charcoal mt-2">
+            Egypt’s Premier Investment Corridors
+          </h2>
+        </div>
+        <p class="text-slate-500 text-sm max-w-md">
+          Independent advisory across every significant ultra-prime district, evaluated against strict infrastructure and appreciation benchmarks.
+        </p>
+      </div>
+
+      <!-- Minimalist Grid of Corridors -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Region 1 -->
+        <div class="p-6 rounded-2xl bg-stonegray border border-coolborder hover:border-slate-400 transition-all group">
+          <div class="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-2">East Cairo</div>
+          <h3 class="font-editorial text-xl font-bold text-charcoal group-hover:text-slate-900 mb-2">
+            New Cairo &amp; Golden Square
+          </h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Signature residential compounds, boutique private villas, and high-yield commercial headquarters.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-200 text-[11px] font-semibold text-slate-500 uppercase tracking-wider flex items-center justify-between">
+            <span>Consultancy Access</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+        <!-- Region 2 -->
+        <div class="p-6 rounded-2xl bg-stonegray border border-coolborder hover:border-slate-400 transition-all group">
+          <div class="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-2">Future Capital</div>
+          <h3 class="font-editorial text-xl font-bold text-charcoal group-hover:text-slate-900 mb-2">
+            New Administrative Capital
+          </h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Diplomatic Quarter residences, Central Business District towers, and government-backed strategic zones.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-200 text-[11px] font-semibold text-slate-500 uppercase tracking-wider flex items-center justify-between">
+            <span>Consultancy Access</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+        <!-- Region 3 -->
+        <div class="p-6 rounded-2xl bg-stonegray border border-coolborder hover:border-slate-400 transition-all group">
+          <div class="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-2">Mediterranean Prime</div>
+          <h3 class="font-editorial text-xl font-bold text-charcoal group-hover:text-slate-900 mb-2">
+            North Coast &amp; Ras El Hekma
+          </h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Ultra-luxury waterfront chalets, beachfront estates, and mega international resort master plans.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-200 text-[11px] font-semibold text-slate-500 uppercase tracking-wider flex items-center justify-between">
+            <span>Consultancy Access</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+        <!-- Region 4 -->
+        <div class="p-6 rounded-2xl bg-stonegray border border-coolborder hover:border-slate-400 transition-all group">
+          <div class="text-[11px] font-bold uppercase tracking-widest text-slate-400 mb-2">West Cairo</div>
+          <h3 class="font-editorial text-xl font-bold text-charcoal group-hover:text-slate-900 mb-2">
+            Sheikh Zayed &amp; New Zayed
+          </h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Exclusive low-density sanctuaries, golf communities, and architectural legacy residences.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-200 text-[11px] font-semibold text-slate-500 uppercase tracking-wider flex items-center justify-between">
+            <span>Consultancy Access</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3. TECHNICAL FOOTER & COMPLIANCE
+       ======================================================================== -->
+  <footer class="bg-alabaster border-t border-coolborder pt-16 pb-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-8">
+      
+      <!-- Footer Layout: Centered Branding 'By properties-s.com' -->
+      <div class="space-y-2">
+        <div class="inline-block px-4 py-1.5 rounded-full bg-white border border-coolborder text-xs uppercase tracking-[0.25em] font-bold text-charcoal shadow-sm">
+          By properties-s.com
+        </div>
+        <p class="text-xs uppercase tracking-widest text-slate-400 font-medium">
+          Strategic Marketing Partner &bull; Independent Real Estate Consultancy
+        </p>
+      </div>
+
+      <!-- Official Disclaimer (MANDATORY EXACT REQUIREMENT) -->
+      <div class="max-w-2xl mx-auto px-4">
+        <p class="text-xs sm:text-sm text-slate-500 leading-relaxed font-normal">
+          &ldquo;This landing page is operated by properties-s.com, an independent real estate consultancy, and is not the official website of any specific developer. Prices and availability are subject to change.&rdquo;
+        </p>
+      </div>
+
+      <!-- Legal Links: Centered Standalone Clickable Links at the Absolute Bottom -->
+      <div class="flex items-center justify-center gap-8 pt-4 pb-2 text-xs font-semibold uppercase tracking-wider text-charcoal">
+        <a href="privacy.html" class="hover:text-slate-500 transition-colors border-b border-transparent hover:border-slate-500 pb-0.5">
+          Privacy Policy
+        </a>
+        <span class="text-slate-300">&bull;</span>
+        <a href="terms.html" class="hover:text-slate-500 transition-colors border-b border-transparent hover:border-slate-500 pb-0.5">
+          Terms &amp; Conditions
+        </a>
+      </div>
+
+      <!-- Signature (MANDATORY EXACT REQUIREMENT) -->
+      <div class="pt-6 border-t border-coolborder text-xs tracking-widest text-slate-400 uppercase font-medium">
+        <p>© 2026 properties-s.com — Independent Real Estate Consultancy</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       SUCCESS MODAL (WITH DIRECT WHATSAPP ACTION)
+       ======================================================================== -->
+  <div id="successModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-8 border border-coolborder shadow-2xl text-center space-y-6 relative transform transition-all animate-in fade-in zoom-in-95">
+      
+      <!-- Close Button -->
+      <button onclick="closeSuccessModal()" class="absolute top-5 right-5 text-slate-400 hover:text-charcoal p-1">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Success Badge (Cool Slate / Clean Grey) -->
+      <div class="w-16 h-16 rounded-full bg-slate-100 border border-coolborder mx-auto flex items-center justify-center text-charcoal">
+        <svg class="w-8 h-8 stroke-current" fill="none" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
+        </svg>
+      </div>
+
+      <div class="space-y-2">
+        <div class="text-[11px] font-bold uppercase tracking-[0.2em] text-slate-400">Request Confirmed</div>
+        <h4 class="font-editorial text-2xl font-bold text-charcoal">
+          Thank You, <span id="modalLeadName">Valued Client</span>
+        </h4>
+        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          Your interest has been securely registered with properties-s.com. A senior real estate consultant will review your inquiry shortly.
+        </p>
+      </div>
+
+      <!-- Action Button to open WhatsApp directly with prefilled request -->
+      <div class="space-y-3 pt-2">
+        <a id="modalWhatsAppBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp w-full py-3.5 px-6 rounded-xl text-xs font-bold tracking-wider uppercase shadow-lg">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.184 0 5.77-2.587 5.77-5.766.001-3.183-2.585-5.768-5.77-5.768zm0-2.172c4.385 0 7.942 3.557 7.942 7.938 0 4.382-3.557 7.941-7.942 7.941-1.373 0-2.65-.353-3.766-.967l-5.265 1.38 1.405-5.132c-.689-1.173-1.074-2.531-1.074-3.982 0-4.381 3.557-7.938 7.942-7.938zm0 1.942c-3.308 0-5.996 2.688-5.996 5.996 0 1.258.39 2.43 1.059 3.396l-.689 2.518 2.593-.681c.928.583 2.023.927 3.033.927 3.308 0 6-2.688 6-5.996 0-3.308-2.692-5.996-6-5.996zm3.328 8.163c-.144-.072-.853-.42-1-.474-.147-.054-.254-.081-.361.081-.107.162-.416.527-.51.635-.094.108-.188.122-.332.05-.144-.072-.609-.224-1.16-.715-.43-.383-.72-1.025-.805-1.17-.085-.144-.009-.222.063-.294.065-.064.144-.167.216-.251.072-.084.096-.144.144-.24.048-.096.024-.18-.012-.252-.036-.072-.361-.87-.495-1.191-.131-.313-.264-.27-.361-.275-.094-.005-.202-.006-.31-.006s-.284.041-.433.203c-.149.162-.57 5.57-.57 1.358 0 .801.583 1.575.664 1.683.081.108 1.147 1.752 2.78 2.456.388.168.692.268.928.343.39.124.745.106 1.026.064.313-.047.962-.393 1.098-.772.136-.379.136-.704.095-.772-.041-.068-.149-.108-.293-.18z"/>
+          </svg>
+          <span>Continue on WhatsApp Now</span>
+        </a>
+
+        <button onclick="closeSuccessModal()" class="btn-cool-outline w-full py-3 px-6 rounded-xl text-xs font-semibold uppercase tracking-wider">
+          Close
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING WHATSAPP BUTTON (SOLID VIBRANT GREEN #25D366)
+       ======================================================================== -->
+  <aside class="fixed bottom-6 right-6 z-50">
+    <a 
+      href="https://wa.me/201000000000?text=Hello%20properties-s.com,%20I%20would%20like%20to%20schedule%20an%20independent%20real%20estate%20consultation." 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="group relative flex items-center justify-center w-14 h-14 rounded-full bg-wagreen text-white shadow-2xl hover:bg-wagreen-hover transition-all duration-300 hover:scale-105 pulse-whatsapp"
+      aria-label="Direct WhatsApp Consultation with properties-s.com"
+    >
+      <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.771.82 2.791.82 3.184 0 5.77-2.587 5.77-5.766.001-3.183-2.585-5.768-5.77-5.768zm0-2.172c4.385 0 7.942 3.557 7.942 7.938 0 4.382-3.557 7.941-7.942 7.941-1.373 0-2.65-.353-3.766-.967l-5.265 1.38 1.405-5.132c-.689-1.173-1.074-2.531-1.074-3.982 0-4.381 3.557-7.938 7.942-7.938zm0 1.942c-3.308 0-5.996 2.688-5.996 5.996 0 1.258.39 2.43 1.059 3.396l-.689 2.518 2.593-.681c.928.583 2.023.927 3.033.927 3.308 0 6-2.688 6-5.996 0-3.308-2.692-5.996-6-5.996zm3.328 8.163c-.144-.072-.853-.42-1-.474-.147-.054-.254-.081-.361.081-.107.162-.416.527-.51.635-.094.108-.188.122-.332.05-.144-.072-.609-.224-1.16-.715-.43-.383-.72-1.025-.805-1.17-.085-.144-.009-.222.063-.294.065-.064.144-.167.216-.251.072-.084.096-.144.144-.24.048-.096.024-.18-.012-.252-.036-.072-.361-.87-.495-1.191-.131-.313-.264-.27-.361-.275-.094-.005-.202-.006-.31-.006s-.284.041-.433.203c-.149.162-.57 5.57-.57 1.358 0 .801.583 1.575.664 1.683.081.108 1.147 1.752 2.78 2.456.388.168.692.268.928.343.39.124.745.106 1.026.064.313-.047.962-.393 1.098-.772.136-.379.136-.704.095-.772-.041-.068-.149-.108-.293-.18z"/>
+      </svg>
+      
+      <!-- Hover Tooltip -->
+      <span class="absolute right-16 px-3 py-1.5 rounded-lg bg-charcoal text-white text-[11px] font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow-lg">
+        Chat with a Senior Consultant
+      </span>
+    </a>
+  </aside>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
