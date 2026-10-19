@@ -32,8 +32,8 @@ const countryCodes = [
 
 // Configuration
 const CONFIG = {
-  // Official WhatsApp consultation phone number (format: country code without + or leading zeros)
-  whatsappNumber: '201000000000',
+  // Official WhatsApp consultation phone number (01033373331 -> 201033373331)
+  whatsappNumber: '201033373331',
   defaultMessage: 'Hello properties-s.com, I would like to schedule an independent real estate consultation regarding prime investment opportunities.'
 };
 
