@@ -1,5 +1,5 @@
 ﻿/* ==========================================================================
-   SODIC PREMIER DEVELOPMENTS â BY PROPERTIES-E
+   SODIC PREMIER DEVELOPMENTS — BY PROPERTIES-S.COM
    ULTRA-LUXURY ARCHITECTURAL DESIGN SYSTEM (STRICT ZERO GOLD POLICY)
    ========================================================================== */
 
@@ -718,6 +718,7 @@ button, input, select, textarea {
 }
 
 .country-code-select {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI Emoji', 'Segoe UI', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
   width: 100%;
   height: 50px;
   padding: 12px 30px 12px 14px;

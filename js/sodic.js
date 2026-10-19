@@ -1,5 +1,5 @@
 ﻿/**
- * SODIC PREMIER DEVELOPMENTS â BY PROPERTIES-S.COM
+ * SODIC PREMIER DEVELOPMENTS — BY PROPERTIES-S.COM
  * Main JavaScript Engine: Form Handling, Lead Routing, Analytics & UI Interactions
  */
 
