@@ -1,0 +1,5 @@
+# Cloudflare Pages Redirects
+/lavista /Lavista 301
+/lavista/* /Lavista/:splat 301
+/Lavista.html /Lavista 301
+/lavista.html /Lavista 301
