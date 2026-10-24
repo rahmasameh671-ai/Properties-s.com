@@ -46,6 +46,14 @@ Properties-s.com/
 │   ├── css/styles.css         # Architectural SODIC stylesheet
 │   ├── js/main.js             # SODIC lead engine, Zapier webhook & country selector
 │   └── images/                # SODIC portfolio images & logos
+├── Lavista.html               # Standalone /Lavista route alias for clean URL engines
+├── Lavista/                   # Dedicated /Lavista Route Directory (Exclusive New Cairo & Capital)
+│   ├── index.html             # La Vista Developments Landing Page
+│   ├── privacy.html           # La Vista legal Privacy Policy
+│   ├── terms.html             # La Vista legal Terms & Conditions
+│   ├── assets/css/styles.css  # Architectural La Vista stylesheet
+│   ├── assets/js/main.js      # La Vista lead engine, Zapier webhook, GA4 & country selector
+│   └── assets/images/         # Official La Vista logo & property portfolio renders
 ├── images/                    # Public media directory (renders & official developer logos)
 │   ├── citygate-official.png
 │   ├── qatari-diar-official.png
@@ -60,7 +68,16 @@ Properties-s.com/
 │   ├── ogami-logo.png
 │   ├── ogami-villa.webp
 │   ├── eastvale-logo.png
-│   └── eastvale-architecture.jpg
+│   ├── eastvale-architecture.jpg
+│   ├── lavista_logo.png
+│   ├── hero.jpg
+│   ├── patio_town_side.jpg
+│   ├── patio_town.jpg
+│   ├── patio_oro.jpg
+│   ├── patio_vida.jpg
+│   ├── patio_riva.jpg
+│   ├── patio_hills.jpg
+│   └── patio_jade.jpg
 ├── privacy.html               # Standalone Routed Privacy Policy (100% White on Solid Black)
 ├── privacy-policy.html        # Direct URL routing alias
 ├── terms.html                 # Standalone Routed Terms & Conditions (100% White on Solid Black)
