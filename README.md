@@ -1,139 +1,135 @@
-# properties-s.com — Ultra-Luxurious Corporate Real Estate Landing Page
+# properties-sa.com — SODIC Developments Portfolio Landing Page
 
-Official web architecture for **properties-s.com**, an **Independent Real Estate Consultancy** and **Strategic Marketing Partner** operating in the Arab Republic of Egypt.
-
----
-
-## 🏛️ Aesthetic Architecture & Strict Guidelines
-
-### Strict Zero Gold Policy
-- **Absolute Exclusion**: Zero gold, bronze, brass, amber, or yellow tones across any part of the site (backgrounds, borders, shadows, typography, or iconography).
-- **Calm Luxury Architectural Palette**:
-  - **Dominant**: Crisp pure white (`#FFFFFF`), clean alabaster (`#FAFAFB`), and subtle stone grey (`#F8F9FA` / `#F1F3F5`).
-  - **Accents**: Deep rich charcoal / slate (`#1A202C` / `#2D3748` / `#0F172A`) for razor-sharp typography and high contrast.
-  - **Cards & Modules**: Translucent frosted white cards (`rgba(255, 255, 255, 0.92)`) with delicate 1px cool borders (`#E2E8F0`).
-  - **WhatsApp Integration**: Solid vibrant WhatsApp Green (`#25D366`, hover `#20BD5A`) for all direct contact triggers.
-
-### Typography
-- **Headlines**: High-end editorial Serif headlines using **Cinzel** and **Playfair Display**.
-- **Body & Data Points**: Clean, ultra-readable modern Sans-serif using **Plus Jakarta Sans** and **Inter**.
-
-### Global UI & Branding Rules
-- **Primary Branding Identifier**: `By properties-s.com`.
-- **No Brokerage Terminology**: Strictly styled as `Independent Real Estate Consultancy` or `Strategic Marketing Partner`. Never uses the word *brokerage*.
-- **Mobile-First Responsiveness**: 100% thumb-friendly, smoothly collapsing into a centered single-column layout on mobile devices.
+> **Strategic Marketing Partner &bull; Independent Real Estate Consultancy**  
+> Showcasing the premier development portfolio of SODIC Developments across Egypt.
 
 ---
 
-## 📂 Project Architecture
+## 🏛️ Project Overview
+
+**properties-sa.com** presents a modern, mobile-responsive real estate showcase dedicated to **SODIC Developments**, crafted under a strict **Calm Luxury** aesthetic and an uncompromising **Zero Gold Policy**. The platform positions properties-sa.com as an independent strategic marketing partner and real estate consultancy connecting discerning clients with SODIC's landmark developments.
+
+### Dedicated Routes Available:
+- **Root URL**: `/` (`index.html`)
+- **Hyde Park Portfolio Dedicated Route**: `/hyde-park` (`hyde-park/index.html` & `hyde-park.html`)
+- **SODIC Portfolio Dedicated Route**: `/sodic` (`sodic/index.html` & `sodic.html`)
+
+### Featured Flagship Portfolios:
+
+#### 🏛️ Hyde Park Portfolio (`/hyde-park`)
+1. **One Hyde Park (2 Minutes From AUC &bull; New Cairo)**
+   - A quiet address arranged around reflecting water, stone, glass, and mature planting.
+   - 1 Bed: Starting from 6.4M EGP &bull; 2 Beds: Starting from 9.3M EGP &bull; 3 Beds: Starting from 11.7M EGP.
+   - Installments up to 10 years.
+   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20One%20Hyde%20Park%20New%20Cairo`
+
+2. **Sea Shore (Ras El Hekma Coastal Sanctuary)**
+   - Mediterranean-inspired whitewashed volumes, shaded loggias, olive and palm, and sand running to the sea.
+   - Starting from 8M EGP &bull; 5% Down Payment | 8 Years Installments.
+   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20Sea%20Shore%20Ras%20El%20Hekma`
+
+3. **Hyde Park Central (Private Gated Community &bull; 15-Acre Central Park)**
+   - Organised around a 15-acre central park with full-service clubhouse, pools, dining, and family lawns.
+   - Starting from 5.9M EGP &bull; 5% Down Payment | 10 Years Installments.
+   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20Hyde%20Park%20Central`
+
+#### 🌿 SODIC Developments Portfolio (`/sodic`)
+1. **Ogami by SODIC (Ras El Hekma &bull; KM 204 Alex-Matrouh Road)**
+   - 440-Acre Premier Coastal Destination with 800-Meter Pristine Beachfront.
+   - Starting from 18.8M EGP &bull; Installments Up to 7 Years &bull; Fully Finished.
+2. **East Vale (Mostakbal City Master Community)**
+   - SODIC's Flagship Destination in Mostakbal City.
+   - Apartments from 10.5M EGP &bull; Villas from 33M EGP &bull; 5% Down Payment | Up to 9 Years.
+3. **SODIC East (New Cairo Integrated Destination)**
+   - Expansive 650-Acre Master Community in East Cairo.
+   - Apartments from 13.5M EGP &bull; Villas from 28M EGP &bull; 1.5% Down Payment | Up to 10 Years.
+
+---
+
+## 🎨 Architectural & Design Guidelines (Strict Zero Gold)
+
+- **Zero Gold Policy**: Absolutely NO gold, bronze, brass, or yellow tones anywhere across the layout.
+- **Calm Luxury Palette**:
+  - Dominant: Crisp Pure White (`#FFFFFF`), Clean Alabaster (`#FAFAFB`), and Soft Subtle Stone/Platinum Grey (`#F8F9FA` / `#F1F3F5`).
+  - Accents: Deep Rich Charcoal & Slate (`#1A202C` / `#2D3748`) for razor-sharp typography.
+  - Cards & Containers: Translucent Frosted White Cards (`rgba(255, 255, 255, 0.90)`) with subtle 1px cool borders (`#E2E8F0`).
+  - CTAs & Triggers: Solid Direct WhatsApp Green (`#25D366` / Hover: `#20BD5A`).
+- **No Top Fixed Navbar**: The Hero section begins directly at `top: 0` for immediate architectural immersion.
+- **100% Mobile-First Responsiveness**: Single-column collapsed layout on mobile with thumb-friendly controls and zero horizontal overflow.
+- **NO 'Visual Gallery' Buttons**: Kept strictly to direct green WhatsApp action buttons.
+- **Lead Capture Form**:
+  - Clean UI: Blank inputs with NO placeholder examples (no sample names or numbers).
+  - Split phone input: Country code dropdown on left with proper UTF-8 flags (defaulting to Egypt `+20 🇪🇬`), clean blank number field on right.
+  - Solid charcoal button reading `SUBMIT`.
+  - Legal disclaimer and centered clickable links to Privacy Policy and Terms & Conditions.
+
+---
+
+## ⚖️ Legal & Standalone Routed Pages (Solid Black Background)
+
+- **Privacy Policy** (`/privacy-policy` & `privacy-policy.html`)
+  - Effective Date: January 1, 2026
+  - Entity: `properties-sa.com`
+  - Address: New Cairo S5-3, Second District, Fifth Settlement, First Floor.
+  - Phone: `01005080951`
+  - Explicit data collection, non-sale of data, and purpose-bound sharing only with authorized developer partners.
+- **Terms & Conditions** (`/terms-conditions` & `terms-conditions.html`)
+  - Last updated: January 1, 2026
+  - Operational positioning as independent real estate consultancy & strategic marketing partner.
+  - Illustrative nature of renders and developer pricing autonomy.
+  - Governed by the laws of the Arab Republic of Egypt (Courts of Cairo).
+
+---
+
+## 📞 WhatsApp Integration
+
+- **Official Number**: `+201033373331`
+- **Floating Button**: Fixed round green icon (`#25D366`) linking directly to `https://wa.me/201033373331`.
+- **Project CTAs**: Solid green buttons reading `CONTACT US` with prefilled inquiry messages.
+- **Partnership CTA**: Solid green button reading `Speak to a Consultant`.
+
+---
+
+## 📁 Repository Structure
 
 ```
-Properties-s.com/
-├── index.html                 # Main Landing Page (Hero, 18 Years Legacy, Value Pillars, Lead Capture)
-├── city-gate.html             # Standalone /city-gate route alias for clean URL engines
-├── city-gate/                 # Dedicated /city-gate Route Directory (City Gate New Cairo)
-│   ├── index.html             # City Gate New Cairo Landing Page (Qatari Diar)
-│   ├── privacy.html           # City Gate legal Privacy Policy
-│   ├── terms.html             # City Gate legal Terms & Conditions
-│   ├── css/style.css          # Architectural City Gate stylesheet
-│   ├── js/main.js             # City Gate lead engine & modal handler
-│   └── images/                # City Gate renders and official logos
-├── sodic.html                 # Standalone /sodic route alias for clean URL engines
-├── sodic/                     # Dedicated /sodic Route Directory
-│   ├── index.html             # The Lakes at SODIC East & Premier Portfolio Landing Page
-│   ├── privacy.html           # SODIC-specific legal Privacy Policy
-│   ├── terms.html             # SODIC-specific legal Terms & Conditions
-│   ├── css/styles.css         # Architectural SODIC stylesheet
-│   ├── js/main.js             # SODIC lead engine, Zapier webhook & country selector
-│   └── images/                # SODIC portfolio images & logos
-├── Lavista.html               # Standalone /Lavista route alias for clean URL engines
-├── Lavista/                   # Dedicated /Lavista Route Directory (Exclusive New Cairo & Capital)
-│   ├── index.html             # La Vista Developments Landing Page
-│   ├── privacy.html           # La Vista legal Privacy Policy
-│   ├── terms.html             # La Vista legal Terms & Conditions
-│   ├── assets/css/styles.css  # Architectural La Vista stylesheet
-│   ├── assets/js/main.js      # La Vista lead engine, Zapier webhook, GA4 & country selector
-│   └── assets/images/         # Official La Vista logo & property portfolio renders
-├── images/                    # Public media directory (renders & official developer logos)
-│   ├── citygate-official.png
-│   ├── qatari-diar-official.png
-│   ├── hero-masterview.jpg
-│   ├── apartment-interior.jpg
-│   ├── villas-exterior.jpg
-│   ├── golf-championship.jpg
-│   ├── sodic-logo.png
-│   ├── the-lakes-architecture.jpg
-│   ├── sodic-east-logo.png
-│   ├── sodic-east-lakes.jpg
-│   ├── ogami-logo.png
-│   ├── ogami-villa.webp
-│   ├── eastvale-logo.png
-│   ├── eastvale-architecture.jpg
-│   ├── lavista_logo.png
-│   ├── hero.jpg
-│   ├── patio_town_side.jpg
-│   ├── patio_town.jpg
-│   ├── patio_oro.jpg
-│   ├── patio_vida.jpg
-│   ├── patio_riva.jpg
-│   ├── patio_hills.jpg
-│   └── patio_jade.jpg
-├── privacy.html               # Standalone Routed Privacy Policy (100% White on Solid Black)
-├── privacy-policy.html        # Direct URL routing alias
-├── terms.html                 # Standalone Routed Terms & Conditions (100% White on Solid Black)
-├── terms-conditions.html      # Direct URL routing alias
+├── index.html                   # Main landing page
+├── hyde-park.html               # Standalone routed page for /hyde-park
+├── hyde-park/
+│   └── index.html               # Clean routed Hyde Park portfolio page (/hyde-park)
+├── sodic.html                   # Standalone routed page for /sodic
+├── sodic/
+│   └── index.html               # Clean routed SODIC portfolio page (/sodic)
+├── privacy-policy.html          # Standalone legal privacy policy (black theme)
+├── privacy-policy/
+│   └── index.html               # Routed URL privacy policy (/privacy-policy)
+├── terms-conditions.html        # Standalone legal terms & conditions (black theme)
+├── terms-conditions/
+│   └── index.html               # Routed URL terms & conditions (/terms-conditions)
+├── images/
+│   ├── hyde-park-logo.svg       # Official Hyde Park Developments logo
+│   ├── hyde-park-hero.jpg       # High-fashion editorial hero visual
+│   ├── one-hyde-park.jpg        # One Hyde Park New Cairo architectural render
+│   ├── sea-shore.jpg            # Sea Shore Ras El Hekma coastal render
+│   ├── hyde-park-central.jpg    # Hyde Park Central 15-acre park render
+│   ├── sodic-logo.png           # Official SODIC developer logo
+│   ├── sodic-east-logo.png      # SODIC East project logo
+│   ├── ogami-logo.png           # Ogami by SODIC project logo
+│   ├── east-vale-logo.png       # East Vale project logo
+│   ├── hero-bg.jpg              # High-key calm luxury architecture hero visual
+│   ├── ogami.jpg                # Ogami Ras El Hekma coastal render
+│   ├── east-vale.jpg            # East Vale Mostakbal City render
+│   └── sodic-east.jpg           # SODIC East New Cairo render
 ├── css/
-│   ├── style.css             # Main corporate Calm Luxury stylesheet
-│   ├── styles.css            # SODIC portfolio stylesheet
-│   └── city-gate.css         # City Gate portfolio stylesheet
+│   └── style.css                # Calm Luxury stylesheet (Strict Zero Gold)
 ├── js/
-│   ├── main.js               # Main corporate engine
-│   ├── sodic.js              # SODIC lead processing & analytics engine
-│   └── city-gate.js          # City Gate lead processing & analytics engine
-└── README.md                  # Complete architectural & compliance documentation
+│   └── main.js                  # Lead engine, country selector, modal & conversion
+├── server.ps1                   # Local HTTP server with routing support
+├── push_all_to_github.ps1       # Automated GitHub API deployment script
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 📄 Key Sections
-
-1. **Hero Section (The Legacy of Excellence)**:
-   - Centered letter-spaced branding: `BY PROPERTIES-S.COM`
-   - Badge: `INDEPENDENT REAL ESTATE CONSULTANCY`
-   - Headline: *A Vision of Extraordinary Living*
-   - Core Highlight: *"Backed by 18 Years of Real Estate Excellence and Market Leadership."*
-   - Frosted Glass Lead Capture Form:
-     - Title: `REGISTER YOUR INTEREST`
-     - Fields: `Full Name` and `Phone Number` (with international country code dropdown, NO placeholder text)
-     - Submit Button: Solid dark charcoal button reading `SUBMIT`
-     - Legal Disclaimer: *"By submitting, you agree to receive communications from properties-s.com. This platform is operated by properties-s.com, an independent real estate consultancy."*
-
-2. **Our Expertise & Company Details**:
-   - Headline: *18 Years of Unmatched Expertise*
-   - Narrative: *"For nearly two decades, properties-s.com has been the strategic partner of choice for elite real estate investments. With 18 years of market insight, we provide 100% unbiased consultations, ensuring our clients secure prime units that perfectly align with their investment goals."*
-   - Value Pillars:
-     1. **18 Years of Experience**: Decades of trusted market leadership.
-     2. **100% Unbiased Consultation**: Independent, client-first advisory.
-     3. **Strategic Partnerships**: Direct access to Egypt's premier developers.
-   - CTA: Solid Green WhatsApp button reading `Consult an Expert Today`.
-
-3. **Technical Footer & Compliance**:
-   - Centered branding: `By properties-s.com`
-   - Mandatory Disclaimer: *"This landing page is operated by properties-s.com, an independent real estate consultancy, and is not the official website of any specific developer. Prices and availability are subject to change."*
-   - Clickable Standalone Legal Links: `Privacy Policy` and `Terms & Conditions`.
-   - Signature: `© 2026 properties-s.com — Independent Real Estate Consultancy`.
-
-4. **Standalone Legal Pages (Routed Pages)**:
-   - Designed with 100% pure white text on solid black background (`#000000`) for maximum formal clarity.
-   - Comprehensive legal clauses governed under the laws of the Arab Republic of Egypt.
-
----
-
-## 🚀 Deployment
-
-The project is pure static HTML5/CSS3/JavaScript (Zero build dependencies). It can be served instantly via:
-- GitHub Pages
-- Cloudflare Pages / Vercel / Netlify
-- Any standard web server or CDN
-
-© 2026 properties-s.com — Independent Real Estate Consultancy.
+© 2026 properties-sa.com — Strategic Partners. All rights reserved.
