@@ -1,0 +1,8 @@
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sodic
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sodic/*
+  Cache-Control: public, max-age=0, must-revalidate
