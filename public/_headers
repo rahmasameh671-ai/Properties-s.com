@@ -6,3 +6,9 @@
 
 /sodic/*
   Cache-Control: public, max-age=0, must-revalidate
+
+/properties-s/sodic
+  Cache-Control: public, max-age=0, must-revalidate
+
+/properties-s/sodic/*
+  Cache-Control: public, max-age=0, must-revalidate
