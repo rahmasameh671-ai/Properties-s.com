@@ -4,24 +4,27 @@ import SodicPortfolio from "./components/SodicPortfolio";
 
 /**
  * Main Application Routing Configuration
- * Maps '/properties-s/sodic' and '/sodic' to the SodicPortfolio page component
- * Production Domain: https://properties-s.com/properties-s/sodic
+ * Maps '/sodic-2', '/sodic', and '/properties-s/sodic' to SodicPortfolio
+ * Production Domain: https://properties-s.com/sodic-2
  */
 export default function App() {
   return (
     <Router>
       <Routes>
-        {/* Dedicated /properties-s/sodic route */}
-        <Route path="/properties-s/sodic" element={<SodicPortfolio />} />
+        {/* Dedicated /sodic-2 route */}
+        <Route path="/sodic-2" element={<SodicPortfolio />} />
         
         {/* Explicit /sodic route */}
         <Route path="/sodic" element={<SodicPortfolio />} />
+        
+        {/* Dedicated /properties-s/sodic route */}
+        <Route path="/properties-s/sodic" element={<SodicPortfolio />} />
         
         {/* Root default route */}
         <Route path="/" element={<SodicPortfolio />} />
         
         {/* Wildcard fallback redirection */}
-        <Route path="*" element={<Navigate to="/properties-s/sodic" replace />} />
+        <Route path="*" element={<Navigate to="/sodic-2" replace />} />
       </Routes>
     </Router>
   );
