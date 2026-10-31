@@ -118,7 +118,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../images/hero-masterview.jpg');
+  background-image: url('/hero-masterview.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

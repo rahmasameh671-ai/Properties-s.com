@@ -1,4 +1,4 @@
-# properties-sa.com — SODIC Developments Portfolio Landing Page
+# PROPERTIES-S.COM — SODIC Developments Portfolio Landing Page
 
 > **Strategic Marketing Partner &bull; Independent Real Estate Consultancy**  
 > Showcasing the premier development portfolio of SODIC Developments across Egypt.
@@ -7,7 +7,7 @@
 
 ## 🏛️ Project Overview
 
-**properties-sa.com** presents a modern, mobile-responsive real estate showcase dedicated to **SODIC Developments**, crafted under a strict **Calm Luxury** aesthetic and an uncompromising **Zero Gold Policy**. The platform positions properties-sa.com as an independent strategic marketing partner and real estate consultancy connecting discerning clients with SODIC's landmark developments.
+**PROPERTIES-S.COM** presents a modern, mobile-responsive real estate showcase dedicated to **SODIC Developments**, crafted under a strict **Calm Luxury** aesthetic and an uncompromising **Zero Gold Policy**. The platform positions PROPERTIES-S.COM as an independent strategic marketing partner and real estate consultancy connecting discerning clients with SODIC's landmark developments.
 
 ### Dedicated Routes Available:
 - **Root URL**: `/` (`index.html`)
@@ -21,17 +21,17 @@
    - A quiet address arranged around reflecting water, stone, glass, and mature planting.
    - 1 Bed: Starting from 6.4M EGP &bull; 2 Beds: Starting from 9.3M EGP &bull; 3 Beds: Starting from 11.7M EGP.
    - Installments up to 10 years.
-   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20One%20Hyde%20Park%20New%20Cairo`
+   - Direct WhatsApp CTA: `https://wa.me/201277752731?text=Hello%2C%20I%20am%20inquiring%20about%20One%20Hyde%20Park%20New%20Cairo`
 
 2. **Sea Shore (Ras El Hekma Coastal Sanctuary)**
    - Mediterranean-inspired whitewashed volumes, shaded loggias, olive and palm, and sand running to the sea.
    - Starting from 8M EGP &bull; 5% Down Payment | 8 Years Installments.
-   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20Sea%20Shore%20Ras%20El%20Hekma`
+   - Direct WhatsApp CTA: `https://wa.me/201277752731?text=Hello%2C%20I%20am%20inquiring%20about%20Sea%20Shore%20Ras%20El%20Hekma`
 
 3. **Hyde Park Central (Private Gated Community &bull; 15-Acre Central Park)**
    - Organised around a 15-acre central park with full-service clubhouse, pools, dining, and family lawns.
    - Starting from 5.9M EGP &bull; 5% Down Payment | 10 Years Installments.
-   - Direct WhatsApp CTA: `https://wa.me/201033373331?text=Hello%2C%20I%20am%20inquiring%20about%20Hyde%20Park%20Central`
+   - Direct WhatsApp CTA: `https://wa.me/201277752731?text=Hello%2C%20I%20am%20inquiring%20about%20Hyde%20Park%20Central`
 
 #### 🌿 SODIC Developments Portfolio (`/sodic`)
 1. **Ogami by SODIC (Ras El Hekma &bull; KM 204 Alex-Matrouh Road)**
@@ -69,7 +69,7 @@
 
 - **Privacy Policy** (`/privacy-policy` & `privacy-policy.html`)
   - Effective Date: January 1, 2026
-  - Entity: `properties-sa.com`
+  - Entity: `PROPERTIES-S.COM`
   - Address: New Cairo S5-3, Second District, Fifth Settlement, First Floor.
   - Phone: `01005080951`
   - Explicit data collection, non-sale of data, and purpose-bound sharing only with authorized developer partners.
@@ -83,8 +83,8 @@
 
 ## 📞 WhatsApp Integration
 
-- **Official Number**: `+201033373331`
-- **Floating Button**: Fixed round green icon (`#25D366`) linking directly to `https://wa.me/201033373331`.
+- **Official Number**: `+201277752731`
+- **Floating Button**: Fixed round green icon (`#25D366`) linking directly to `https://wa.me/201277752731`.
 - **Project CTAs**: Solid green buttons reading `CONTACT US` with prefilled inquiry messages.
 - **Partnership CTA**: Solid green button reading `Speak to a Consultant`.
 
@@ -132,4 +132,4 @@
 
 ---
 
-© 2026 properties-sa.com — Strategic Partners. All rights reserved.
+© 2026 PROPERTIES-S.COM — Strategic Partners. All rights reserved.

@@ -1,5 +1,5 @@
-﻿/**
- * SODIC PREMIER DEVELOPMENTS — BY PROPERTIES-S.COM
+/**
+ * SODIC PREMIER DEVELOPMENTS � BY PROPERTIES-S.COM
  * Main JavaScript Engine: Form Handling, Lead Routing, Analytics & UI Interactions
  */
 
@@ -54,7 +54,7 @@ function initMobileNavigation() {
  * - Mostafa.ashmawy@irtkaz.com
  * Webhook: Zapier catch hook
  * Local Storage persistence
- * WhatsApp conversion fast-track (+201033373331)
+ * WhatsApp conversion fast-track (+201277752731)
  */
 function initLeadCaptureForm() {
   const leadForm = document.getElementById('heroLeadForm');

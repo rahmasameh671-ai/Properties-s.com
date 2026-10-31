@@ -95,7 +95,7 @@ export const LeadForm = () => {
       </button>
 
       <p className="text-[11px] text-center text-slate-500 leading-relaxed mt-1">
-        By submitting, you agree to receive communications from properties-sa.com regarding real estate projects.
+        By submitting, you agree to receive communications from By properties-s.com regarding real estate projects.
       </p>
     </form>
   );

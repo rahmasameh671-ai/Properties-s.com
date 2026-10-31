@@ -1,6 +1,6 @@
 /**
  * SODIC Developments Portfolio Landing Page
- * Operated by properties-sa.com — Strategic Marketing Partner
+ * Operated by By properties-s.com — Independent Real Estate Consultancy
  * Strict Calm Luxury Architecture (Zero Gold Policy)
  */
 
@@ -42,16 +42,16 @@ function getPortfolioContext() {
     developerName: isHydePark ? 'Hyde Park Developments' : 'SODIC Developments',
     portfolioLabel: isHydePark ? 'Hyde Park Portfolio' : 'SODIC Developments Portfolio',
     eventLabel: isHydePark ? 'Hyde Park Interest Form' : 'SODIC Interest Form',
-    storageKey: isHydePark ? 'properties_sa_hydepark_leads' : 'properties_sa_sodic_leads',
+    storageKey: isHydePark ? 'properties_s_hydepark_leads' : 'properties_s_sodic_leads',
     defaultInquiryMessage: isHydePark
-      ? 'Hello properties-sa.com, I am inquiring about Hyde Park projects.'
-      : 'Hello properties-sa.com, I would like to inquire about the SODIC Developments portfolio.'
+      ? 'Hello By properties-s.com, I am inquiring about Hyde Park projects.'
+      : 'Hello By properties-s.com, I would like to inquire about the SODIC Developments portfolio.'
   };
 }
 
 // Configuration
 const CONFIG = {
-  whatsappNumber: '201033373331',
+  whatsappNumber: '201277752731',
   zapierWebhookUrl: 'https://hooks.zapier.com/hooks/catch/25429357/uclzmpn/'
 };
 
@@ -142,7 +142,7 @@ function initLeadForm() {
         const stored = JSON.parse(localStorage.getItem(context.storageKey) || '[]');
         stored.push({
           ...data,
-          source: `properties-sa.com — ${context.portfolioLabel}`
+          source: `By properties-s.com — ${context.portfolioLabel}`
         });
         localStorage.setItem(context.storageKey, JSON.stringify(stored));
       } catch (err) {
@@ -194,7 +194,7 @@ function openSuccessModal(name, fullPhone, context = null) {
   if (modalName) modalName.textContent = name;
 
   if (whatsappBtn) {
-    const text = encodeURIComponent(`Hello properties-sa.com, my name is ${name} (${fullPhone}). I just registered my interest on properties-sa.com and would like to receive floor plans, updated availability, and payment breakdowns for ${ctx.developerName}.`);
+    const text = encodeURIComponent(`Hello By properties-s.com, my name is ${name} (${fullPhone}). I just registered my interest on properties-s.com and would like to receive floor plans, updated availability, and payment breakdowns for ${ctx.developerName}.`);
     whatsappBtn.href = `https://wa.me/${CONFIG.whatsappNumber}?text=${text}`;
   }
 

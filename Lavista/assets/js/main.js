@@ -274,7 +274,7 @@ function initLeadForm() {
     // Set up direct WhatsApp button in modal for instant chat
     if (modalWhatsAppBtn) {
       const encodedMsg = encodeURIComponent(`Hello, I just registered my interest for the La Vista Developments portfolio on properties-s.com. My name is ${fullName} (${fullPhoneNumber}). Please provide me with the available brochures and inventory.`);
-      modalWhatsAppBtn.href = `https://wa.me/201033373331?text=${encodedMsg}`;
+      modalWhatsAppBtn.href = `https://wa.me/201277752731?text=${encodedMsg}`;
       modalWhatsAppBtn.setAttribute('onclick', 'return gtag_report_conversion(this.href);');
     }
   });
